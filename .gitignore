@@ -18,12 +18,18 @@
 
 # Libraries
 *.lib
+!library/linkedlist.lib
+!library/SDL2.lib
+!library/zlibwapi.lib
 *.a
 *.la
 *.lo
 
 # Shared objects (inc. Windows DLLs)
 *.dll
+!library/linkedlist.dll
+!library/SDL2.dll
+!library/zlibwapi.dll
 *.so
 *.so.*
 *.dylib
